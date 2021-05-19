@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -13,16 +14,18 @@
             <input type="search" placeholder="Search for movies">
             <button>GO</button>
         </header>
-        <section>
+        <div class="wrapper">
+        <section class="movie-card">
             <div>
-                <h1>Title:</h1>
+                <p>Title:</p>
                 <p>Genre:</p>
+                <p>Year:</p>
             </div>
-            <p>Year:</p>
+            <section>
+                <img src="https://i.pinimg.com/originals/85/9a/cc/859acc9d85555f557367d5b693813cbe.jpg" alt="A family">
+            </section>
         </section>
-        <section>
-            <img src="https://i.pinimg.com/originals/85/9a/cc/859acc9d85555f557367d5b693813cbe.jpg" alt="A family">
-        </section>
+        </div>
     </div>
 </body>
 </html>
